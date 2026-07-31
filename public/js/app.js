@@ -333,16 +333,16 @@ function fetchSkills() {
   if (!container) return;
 
 var fallbackSkills = [
-  { name: 'HTML', category: 'Frontend', icon: '/src/img/html.png', level: 'advanced' },
-  { name: 'CSS', category: 'Frontend', icon: '/src/img/css.png', level: 'advanced' },
-  { name: 'JavaScript', category: 'Frontend', icon: '/src/img/js.png', level: 'advanced' },
-  { name: 'PHP', category: 'Backend', icon: '/src/img/php.png', level: 'intermediate' },
-  { name: 'MySQL', category: 'Database', icon: '/src/img/mysql.png', level: 'intermediate' },
-  { name: 'Adobe Premiere', category: 'Design', icon: '/src/img/premiere.png', level: 'intermediate' },
-  { name: 'CapCut', category: 'Design', icon: '/src/img/capcut.png', level: 'advanced' },
-  { name: 'Canva', category: 'Design', icon: '/src/img/canva.png', level: 'advanced' },
-  { name: 'Word', category: 'Office', icon: '/src/img/word.png', level: 'advanced' },
-  { name: 'Excel', category: 'Office', icon: '/src/img/excel.png', level: 'advanced' },
+  { name: 'HTML', category: 'Frontend', icon: '/image/html.png', level: 'advanced' },
+  { name: 'CSS', category: 'Frontend', icon: '/image/css.png', level: 'advanced' },
+  { name: 'JavaScript', category: 'Frontend', icon: '/image/js.png', level: 'advanced' },
+  { name: 'PHP', category: 'Backend', icon: '/image/php.png', level: 'intermediate' },
+  { name: 'MySQL', category: 'Database', icon: '/image/mysql.png', level: 'intermediate' },
+  { name: 'Adobe Premiere', category: 'Design', icon: '/image/premiere.png', level: 'intermediate' },
+  { name: 'CapCut', category: 'Design', icon: '/image/capcut.png', level: 'advanced' },
+  { name: 'Canva', category: 'Design', icon: '/image/canva.png', level: 'advanced' },
+  { name: 'Word', category: 'Office', icon: '/image/word.png', level: 'advanced' },
+  { name: 'Excel', category: 'Office', icon: '/image/excel.png', level: 'advanced' },
 ];
 
   fetch('/api/skills')
@@ -386,7 +386,7 @@ var fallbackProjects = [
     description: 'Website galeri untuk menampilkan koleksi foto/karya secara online.',
     tech: ['HTML', 'CSS', 'JavaScript'],
     status: 'completed',
-    image: '/src/img/web1.png',
+    image: '/image/web1.png',
     link: 'https://cthllyx-gallery.vercel.app/'
   },
   {
@@ -394,7 +394,7 @@ var fallbackProjects = [
     description: 'Website profil desa untuk menampilkan informasi dan data desa.',
     tech: ['HTML', 'CSS', 'JavaScript'],
     status: 'completed',
-    image: '/src/img/web2.png',
+    image: '/image/web2.png',
     link: 'https://desa-profile.vercel.app/'
   },
   {
@@ -402,7 +402,7 @@ var fallbackProjects = [
     description: 'Website Pengelolaan Siswa Alumni SDN 1 Pengadilan.',
     tech: ['PHP', 'HTML', 'CSS', 'JavaScript', 'SQL'],
     status: 'completed',
-    image: '/src/img/web3.png',
+    image: '/image/web3.png',
     link: 'https://sdn1pengadilan.wuaze.com/'
   }
 ];
@@ -421,11 +421,11 @@ var fallbackProjects = [
 }
 
 var techIcons = {
-  'HTML': '/src/img/html.png',
-  'CSS': '/src/img/css.png',
-  'JavaScript': '/src/img/js.png',
-  'PHP': '/src/img/php.png',
-  'SQL': '/src/img/mysql.png'
+  'HTML': '/image/html.png',
+  'CSS': '/image/css.png',
+  'JavaScript': '/image/js.png',
+  'PHP': '/image/php.png',
+  'SQL': '/image/mysql.png'
 };
 
 function renderProjects(container, projects) {
