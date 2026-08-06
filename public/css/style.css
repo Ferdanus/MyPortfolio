@@ -1373,3 +1373,13 @@ footer {
     grid-template-columns: 1fr;
   }
 }
+
+.slide-left,
+.slide-right {
+  transform: translate3d(0, 24px, 0);
+}
+
+.slide-left.visible,
+.slide-right.visible {
+  transform: translate3d(0, 0, 0);
+}
